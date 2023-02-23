@@ -1,4 +1,4 @@
-import {BrowserRouter, Routes, Route} from "react-router-dom"
+import {BrowserRouter, Routes, Route, Navigate} from "react-router-dom"
 import './App.css';
 
 import Home from './pages/home/Home'
@@ -8,6 +8,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path='/' exact element={<Home />} />
+        <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
     </BrowserRouter>
   );

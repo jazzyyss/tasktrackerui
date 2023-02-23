@@ -1,0 +1,8 @@
+.footerContainer{
+    background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+}

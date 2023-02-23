@@ -1,0 +1,40 @@
+.bodyContainer{
+    background-color: #e0dede;
+    height: 80vh;
+    display: flex;
+    padding: 30px 5px;
+}
+
+p{
+    margin: 0;
+}
+
+.leftPart{
+    flex: 1;
+}
+
+.leftPart p {
+    font-size: 4rem;
+    width: 100%;
+    text-align: center;
+    font-weight: 800;
+}
+
+.leftPart p:nth-child(1){
+    margin-top: 60px;
+}
+
+.leftPart p:nth-child(2){
+    color: #660f0f;
+    margin-top: 50px;
+}
+
+.rightPart{
+    flex: 1;
+    font-weight: 800;
+    font-size: 15rem;
+    text-align: center;
+    height: 100%;
+    line-height: 440px;
+    color: #023301;
+}

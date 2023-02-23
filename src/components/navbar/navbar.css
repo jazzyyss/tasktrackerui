@@ -1,0 +1,38 @@
+
+.navbarContainer{
+    background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+    display: flex;
+    width: 100%-10px;
+    padding: 5px;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+}
+
+.logo{
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.logo>span{
+    color: #fff;
+}
+
+.buttons{
+    display: flex;
+    font-weight: 500;
+}
+
+.button{
+    margin-left: 10px;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.loginBtn{
+    padding: 5px 13px;
+}
