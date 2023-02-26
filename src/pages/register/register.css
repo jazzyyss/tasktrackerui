@@ -1,0 +1,10 @@
+.registerContainer{
+    background-color: #e0dede;
+    height: 80vh;
+    padding: 60px 5px;
+}
+.formContainer{
+    width: 500px;
+    text-align: center;
+    margin: auto;
+}

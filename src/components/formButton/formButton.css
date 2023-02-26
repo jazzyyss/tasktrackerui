@@ -1,0 +1,29 @@
+.button-container{
+    font-family: 'Metal Mania',cursive;
+}
+
+.button{
+    border:none;
+    margin-top: 2rem;
+    background-color: #4285f4; 
+    color:white;
+    cursor: pointer;
+    height:1.5rem;
+}
+
+.button :hover{
+    background-color: #357ae8;
+    border: none;
+}
+
+.comment-button{
+    position:absolute;
+    top:50%;
+    right:6%;
+    transform:translate(+50%,-50%);
+}
+
+.comment-button .button{
+    height:2rem;
+    margin-top:0;
+}
