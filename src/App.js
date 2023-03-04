@@ -4,6 +4,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import './App.css';
 
 import Home from './pages/home/Home'
+import Mainpage from "./pages/mainpage/Mainpage";
 import Register from "./pages/register/Register";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route path='/' exact element={<Home />} />
         <Route path='/register' exact element={<Register />}/>
+        <Route path='/home' exact element={<Mainpage />}/>
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
     </BrowserRouter>

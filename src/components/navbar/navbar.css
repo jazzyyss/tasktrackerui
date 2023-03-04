@@ -55,8 +55,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 600px;
-    width: 400px;
+    height: 350px;
+    width: 300px;
     background-color: #111;
     border-radius: 15px 15% 15px 15%;
     z-index: 4;

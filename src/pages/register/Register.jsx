@@ -32,7 +32,7 @@ const Register = _ => {
                 const res = await http.post(`http://localhost:8008/api/user/register`,credentials);
                 console.log(res)
                 //toast.success(<div>You are registered successfully.<br />Please sign in to continue</div>);
-               //navigate('/',{ replace: true })
+               navigate('/',{ replace: true })
             }catch(er){
                 console.log(er) 
             }

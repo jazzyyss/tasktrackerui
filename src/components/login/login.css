@@ -1,0 +1,11 @@
+.lgnHead{
+    text-align: center;
+    margin: 50px 0 40px 0;
+    color: #fff
+}
+
+.form-container{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}

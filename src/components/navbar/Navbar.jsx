@@ -1,5 +1,6 @@
 import {useState} from 'react'
 import { useNavigate } from 'react-router-dom'
+import Login from '../login/Login'
 import './navbar.css'
 
 const Navbar = ({status}) => {
@@ -9,7 +10,7 @@ const Navbar = ({status}) => {
     return(<>
         <div className={`lgnDia ${!toggleLogin?'':'active'}`} onClick={_=> setToggleLogin(!toggleLogin)}>
             <div className="lgn" onClick={e=> e.stopPropagation()}>
-
+                <Login />
             </div>
         </div>
             
